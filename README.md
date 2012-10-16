@@ -15,3 +15,4 @@ ThematiWiki is copyright [Evan Stein](http://vanpop.com/) and released, like Wor
 ThematiWiki has a credit link in the footer template. You may remove or edit this link without cost or concern—although it sure is appreciated if you link back to [Evan Stein](http://vanpop.com), or the [ThematiWiki project](http://vanpop.com/thematiwiki), in some way.
 
 Thank you, and enjoy!
+

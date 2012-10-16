@@ -6,6 +6,7 @@
 // changed on a subsequent page view.
 // see http://lists.wikimedia.org/pipermail/wikitech-l/2006-January/021311.html
 
+
 if ( ! defined( 'MEDIAWIKI' ) )
 	die( 1 );
 
