@@ -1,0 +1,166 @@
+/*
+
+The ThematiWiki MediaWiki Skin was created by Evan Stein of VANPOP Studios
+and is covered under a GNU General Public License.
+
+*/
+
+
+/*.pBody ul li {list-style:none;text-align:right;}
+#p-navigation ul li a { display:block;background-color:#eee;border-bottom:1px solid #fff;border-right:solid 10px #000;padding:0 4px 2px 4px; }
+#p-navigation ul li a:hover { background-color:#eff; }
+*/
+
+#pagehistory li {font-size:.7em;}
+#bodyContent #toc {
+	display: block !important; width:250px; }
+#bodyContent table {margin-bottom:22px !important;}
+
+/* =Global Elements
+-------------------------------------------------------------- */
+.entry-content { width:98.6%; }
+.skin-thematiwiki form { width:99% !important;float:right;}
+/* .mw-specialpages-table, #mw-preferences-form { width:99.9% !important;float:right;} */
+
+#toc {float:right;margin-right:1px;margin-left:22px;}
+.editsection {float:right;padding-right:10px;}
+
+#jump-to-nav {display:none;padding-bottom:22px;border:1px solid #ccc;position:fixed;bottom:-11px;background-color:#fff;z-index:9999;left:20px;padding:4px 10px 18px 10px !important;}
+
+#column-one {
+    width:200px;float:left;
+    border:0px solid #ccc;padding-left:22px;padding-top:7px;
+    margin-bottom:22px;
+}
+
+.skin-thematiwiki #content {clear:both;}
+
+#f-list {list-style:none;margin-left:0;}
+#f-poweredbyico, #f-copyrightico, #siteSub, .printfooter {display:none;}
+
+#editpage-copywarn {font-size:.7em;line-height:1.7em;margin-top:10px;}
+
+#wikifooter, .editHelp {clear:both;display:block;}
+
+.pBody #searchform {margin-bottom:22px;}
+
+.editButtons {margin-top:6px;}
+
+.skin-thematiwiki input {margin-bottom:6px;}
+
+.skin-thematiwiki h2, .skin-thematiwii h3 {display:inline;}
+#p-personal h3, #p-cactions h3 {display:none;}
+
+.printfooter {font-size:.7em;}
+
+
+/* =Menu
+-------------------------------------------------------------- */
+#p-personal li {padding:2px 6px 2px 6px;}
+
+/* For Sidebar on Left */
+#p-cactions {position:absolute;top:-1px;width:740px !important;left:319px;}
+#p-personal {position:absolute;top:-30px;width:740px !important;left:420px;text-align:right !important;}
+
+
+/* For Sidebar on Right
+#p-cactions {position:absolute;top:-1px;width:740px !important;left:-640px;}
+#p-personal {position:absolute;top:-30px;width:740px !important;left:-520px;text-align:right !important;}
+*/
+
+/*
+For Normal Thematic Header
+#p-cactions {position:absolute;top:-40px;width:740px !important;left:319px;}
+#p-personal {position:absolute;top:-64px;width:740px !important;left:420px;text-align:right !important;}
+*/
+
+/*** ESSENTIAL STYLES ***/
+#p-personal, #p-personal *, #p-cactions, #p-cactions * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+
+#p-personal, #p-cactions {
+	line-height:	1.0;
+}
+
+#p-personal li, #p-cactions li {
+	float:			left;
+	position:		relative;
+}
+#p-personal a, #p-cactions a {
+	display:		block;
+	position:		relative;
+}
+
+/*** THEMATIC SKIN ***/
+
+.skin-thematiwiki .page-item-247 a{border-bottom:1px solid #fff;}
+.skin-thematiwiki .page-item-247 a:hover, #p-cactions ul li a:hover {border-bottom:1px solid #ccc;}
+#p-cactions li a { background-color:#fff; }
+
+#ca-watch a, #ca-delete a, #ca-protect a, #ca-history a, #ca-addsection a, #ca-undelete a {border-left:0px solid #fff !important;}
+#ca-undelete, #ca-protect, #ca-move, #ca-watch, #ca-nstab-special, .ns-subject #ca-history, .ns-talk #ca-addsection, #ca-edit, #ca-viewsource {
+    border-right:1px solid #ccc;
+	float:left;
+}
+
+
+
+#p-cactions a {
+	border-left:1px solid #ccc;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:9px 13px;
+	text-decoration:none;
+}
+#p-cactions li.selected a {
+    border-bottom-color:#fff;
+}
+
+/* =Content
+--------------------------------------------------------------*/
+
+.skin-thematiwiki #content {margin-top:50px;}
+
+#main {
+    clear:both;
+    padding:40px 0 22px 0 !important;
+}
+
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#wikifooter {
+text-align:right;padding-top:18px;
+border-top:0px solid #ccc;
+color:#666666 !important;
+background-position:center bottom;
+background-repeat:no-repeat !important;
+}
+
+#wikifooter a {font-weight:bold;}
+
+#wikifooter {
+    color:#666;
+    font-size:11px;
+    line-height:18px;
+}
+#wikifooter a {
+    color:#666;
+}
+#wikifooter a:active,
+#wikifooter a:hover {
+    color: #5C9BD1;
+}
+
+#wikifooter #privacy,
+#wikifooter #about,
+#wikifooter #disclaimer {
+display:inline;padding-left:8px;
+}
+
+#bodyContent {min-height:500px;}
